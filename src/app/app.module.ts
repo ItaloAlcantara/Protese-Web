@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { CadastrosComponent } from './cadastros/cadastros.component';
 import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
+import { SolicitacaoComponent } from './solicitacao/solicitacao.component';
+import { AdmCadastroComponent } from './adm-cadastro/adm-cadastro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     LoginComponent,
     HomeComponent,
-    CadastrosComponent
+    CadastrosComponent,
+    SolicitacaoComponent,
+    AdmCadastroComponent
   ],
   imports: [
     BrowserModule,
