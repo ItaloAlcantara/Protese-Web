@@ -18,9 +18,9 @@
                           <tr>
                             <th>Nome </th>
                             <th>Documento</th>
-                            <th>Email</th>
-                            <th>Unidade</th>  
-                            <th>Ações</th>                        
+                            <th>Email</th>                         
+                            <th>Ações</th>
+                            <th>Status</th>                        
                           </tr>
                         </thead>
                         <tbody>
@@ -28,35 +28,40 @@
                             <td>John Marley</td>
                             <td>511.938.360-26</td>
                             <td>john@example.com</td>
-                            <td>Sim Fatima</td>
                             <td>
                                 <a class="btn btn-link btn-xs" [routerLink]="['/admCadastro']">
-                                  <i class="glyphicon glyphicon-pencil">Adm</i>
+                                  <i class="glyphicon glyphicon-pencil">Detalhe</i>
                                 </a>
+                            </td>
+                            <td>
+                                <span class="label label-success">Concluido</span>
                             </td>
                           </tr>
                           <tr>
                             <td>Mary Christany</td>
                             <td>995.479.880-34</td>
                             <td>mary@example.com</td>
-                            <td>Sim Monstese</td>
                             <td>
                                 <a class="btn btn-link btn-xs" [routerLink]="['/admCadastro']">
-                                  <i class="glyphicon glyphicon-pencil">Adm</i>
+                                  <i class="glyphicon glyphicon-pencil">Detalhe</i>
                                 </a>
+                            </td>
+                            <td>
+                              <span class="label label-warning">Pendente</span>
                             </td>
                           </tr>
                           <tr>
                             <td>July Pepper</td>
                             <td>396.465.940-18</td>
                             <td>july@example.com</td>
-                            <td>Sim North Shopping</td>
                             <td>
                                 <a class="btn btn-link btn-xs" [routerLink]="['/admCadastro']">
-                                  <i class="glyphicon glyphicon-pencil">Adm</i>
+                                  <i class="glyphicon glyphicon-pencil">Detalhe</i>
                                 </a>
                             </td>
-                              
+                            <td>
+                              <span class="label label-success">Concluido</span>
+                            </td>    
                           </tr>
                         </tbody>
                       </table>  

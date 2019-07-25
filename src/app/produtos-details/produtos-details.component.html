@@ -13,10 +13,10 @@
               <div class="card-header "> 
                 <div row>
                   <div class="col-ms-2">
-                <h5>Solicitações do paciente</h5>
+                <h5>Solicitações do paciente/Produto</h5>
                 </div>
                 <div class="col-ms-1">
-                    <a class="btn btn-link btn-xs" [routerLink]="['/solicitacao']">
+                    <a class="btn btn-link btn-xs" [routerLink]="['/admCadastro']">
                       <i class="glyphicon glyphicon-pencil">Voltar</i>
                      </a>
                     </div>
@@ -28,18 +28,13 @@
                         <thead>
                           <tr>
                             <th>Nome </th>
-                            <th>Documento</th>
-                            <th>Email</th>
-                            <th>Unidade</th>  
-                                                
+                            <th>Produto</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>John Marley</td>
-                            <td>511.938.360-26</td>
-                            <td>john@example.com</td>
-                            <td>Sim Fatima</td>
+                            <td>Coroa</td>
                           </tr>
                           </tbody>
                           </table>
@@ -60,7 +55,6 @@
                                           <thead>
                                             <tr>
                                               <th>Produto </th>
-                                              <th>Etapa</th>
                                               <th>Detalhe</th>  
                                               <th>Status</th>                        
                                             </tr>
@@ -68,7 +62,6 @@
                                           <tbody>
                                             <tr>
                                               <td>Coroa</td>
-                                              <td>Unica</td>
                                               <td>
                                                 <a class="btn btn-link btn-xs" [routerLink]="['/produtosDetails']">
                                                   <i class="glyphicon glyphicon-pencil">Detalhe</i>
@@ -81,7 +74,6 @@
                                             </tr>
                                             <tr>
                                               <td>Protese</td>
-                                              <td>4 etapas</td>
                                               <td>
                                                   <a class="btn btn-link btn-xs" [routerLink]="['/produtosDetails']">
                                                     <i class="glyphicon glyphicon-pencil">Detalhe</i>
@@ -97,5 +89,5 @@
                                   </form>
                                 </div>
                               </div>
-                        </section>                          
+                        </section>         
                           

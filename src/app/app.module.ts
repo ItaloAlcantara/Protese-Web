@@ -12,6 +12,9 @@ import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { SolicitacaoComponent } from './solicitacao/solicitacao.component';
 import { AdmCadastroComponent } from './adm-cadastro/adm-cadastro.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ProdutosDetailsComponent } from './produtos-details/produtos-details.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,16 @@ import { AdmCadastroComponent } from './adm-cadastro/adm-cadastro.component';
     HomeComponent,
     CadastrosComponent,
     SolicitacaoComponent,
-    AdmCadastroComponent
+    AdmCadastroComponent,
+    ProdutosComponent,
+    ProdutosDetailsComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(ROUTES)
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
